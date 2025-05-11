@@ -5,3 +5,5 @@ $slot = panggil variable component = <component>slot</component>
 {{request()->is('/')? '' :''}} = base url
 
 php artisan make:component nama = utk buat component
+
+:active="request()->is('/')" = $active = for created attribute
