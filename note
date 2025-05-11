@@ -1,3 +1,7 @@
 <x-slot:title>{{$title}}</x-slot:title>
-$slot 
-{{request()->is('/')? '' :''}}
+
+$slot = panggil variable component = <component>slot</component>
+
+{{request()->is('/')? '' :''}} = base url
+
+php artisan make:component nama = utk buat component
