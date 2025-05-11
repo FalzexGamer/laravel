@@ -1,0 +1,3 @@
+<x-slot:title>{{$title}}</x-slot:title>
+$slot 
+{{request()->is('/')? '' :''}}
