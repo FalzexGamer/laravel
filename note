@@ -9,3 +9,5 @@ php artisan make:component nama = utk buat component
 :active="request()->is('/')" = $active = for created attribute
 
 &raquo; = >>
+
+namespace App\Models; = untuk specification class
