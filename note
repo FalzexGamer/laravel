@@ -11,3 +11,5 @@ php artisan make:component nama = utk buat component
 &raquo; = >>
 
 namespace App\Models; = untuk specification class
+
+Null coalescing = (??)
